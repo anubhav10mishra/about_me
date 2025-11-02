@@ -1,0 +1,23 @@
+{
+  "name": "anubhav-resume",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive resume for Anubhav - ready for GitHub Pages (Vite + React)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5173",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://<anubhav10mishra>.github.io/<about_me>",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^10.12.14",
+    "lucide-react": "^0.268.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "gh-pages": "^5.0.0"
+  }
+}
